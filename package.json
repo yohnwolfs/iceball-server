@@ -1,0 +1,28 @@
+{
+  "name": "SocketServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-ws": "^2.0.0-rc.1",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.4",
+    "typescript": "^1.8.10"
+  }, 
+  "engines": {
+    "node": ">=0.10"
+  }
+}
